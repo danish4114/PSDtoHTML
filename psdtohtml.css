@@ -10,8 +10,6 @@ body{
 	background-color: white;
 	width: 80%;
 	margin: auto;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
 }
 .logo{
 	padding-left: 10px;
@@ -23,75 +21,83 @@ body{
 .header_right{
 	float: right;
 	padding-right: 20px;
-	padding-top: 5px;
+	padding-top: 6px;
 }
 .header_right input[type=text]{
 	padding-right: 11px;
 }
 .menu{
-	float: left;
-	width: 100%;
-	margin: auto;
-	overflow: auto;
-	background:linear-gradient(#A95D70 1%,#744745);
+	width: 80%;
+	margin: auto;	
 }
 .menu ul{
 	list-style-type: none;
+	background:linear-gradient(#A95D70 1%,#744745);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 .menu ul li{
-	float: left;
-	padding-top: 5px;
-	padding-left: 7px;
-	padding-right: 7px;
+	display: inline-block;
+	padding: 10px;
 	border-right: 1px solid white;
 }
 .menu ul li:nth-child(6){
 	float: right;
+	border-right: none;
 }
-
-.menu ul  a{
+.menu a{
 	text-decoration: none;
+	color: white;
+	font-size:19px;
 	font-family: Arial;
-	font-size:18px;
-	color:#f5f5f5;
 	font-weight: 600;
 }
-.menu ul  a span{
-	font-size:25px;
+.menu span{
+	font-size: 24px;
 }
 .header_name{
 	width:45%;
 	text-align: center;
 	padding-top: 18px;
+	color:#1F642D    ;
 }
 .header_name h1{
 	font-family: Arial;
 	font-weight: 100;
+	font-size:30px;
 }
 .header_name h1 span{
-	font-size: 40px;
+	font-size: 35px;
 }
 .content{
 	text-align: center;
 }
 .header_right input[type=text]{
-	width: 80%
+	padding:3px;
+	padding-left: 60px;
+	padding-right: 25px;
 }
 .header_right button{
-	padding-left:4px;
-	padding-right: 4px;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	background:linear-gradient(#A95D70 1%,#744745);
 	border:none;
 	color:white;
 }
 .header_right h4{
 	font-family: Arial;
-	font-weight: 100;
+	font-weight: 600;
+	font-size:13px;
+}
+.header_right h4:nth-child(1){
+	margin-bottom: 5px;
+	color:#063E04  ;
 }
 .header_right h4:nth-child(2){
-	margin-bottom: 5px;
+	margin-bottom: 10px;
+	color: #744745;
+	word-spacing: 2px;
 }
 .parent_div{
 	width: 80%;
@@ -219,6 +225,13 @@ body{
 	background-repeat: no-repeat;
 	padding-left: 25px;
 	margin-bottom: 12px;
+}
+.stuff .caption{
+	color:white;
+	position: absolute;
+	top:130px;
+	font-size:60px;
+	font-family: Arial;
 }
 .news{
 	float: right;
